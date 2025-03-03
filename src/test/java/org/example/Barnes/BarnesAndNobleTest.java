@@ -25,7 +25,6 @@ class BarnesAndNobleTest {
 
             possible outputs -- nullptr exception, total >= 0
 
-
     */
 
     BarnesAndNoble barnesAndNoble;
