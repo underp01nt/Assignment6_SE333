@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: checkstyle-result
-          path: target/checkstyle.xml
+          path: target/checkstyle-result.xml
 
       - name: Run Maven Test
         run: mvn validate test
@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jacoco-report
-          path: target/site/jacoco-report/
+          path: target/site/jacoco/index.html
