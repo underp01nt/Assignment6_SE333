@@ -18,6 +18,6 @@ Input Combinations (ISBN, Quantity):  (null, 0), (empty, 0), (invalid, >0), (val
 
 __Structural-based testing__ ==> Added test cases to call the equals method from the Book class
 
-
+[![.github/workflows/SE333_CI.yml](https://github.com/underp01nt/Assignment6_SE333/actions/workflows/SE333_CI.yml/badge.svg)](https://github.com/underp01nt/Assignment6_SE333/actions/workflows/SE333_CI.yml)
 
 
